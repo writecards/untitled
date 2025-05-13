@@ -97,20 +97,20 @@ document.addEventListener("DOMContentLoaded", function () {
     };
   }
 });
-// // Get current page's filename
-// const currentPage = window.location.pathname.split("/").pop();
+// Get current page's filename
+//const currentPage = window.location.pathname.split("/").pop();
 
-// // Filter out the current page from the list
+// Filter out the current page from the list
 // const otherPages = pages.filter((page) => page !== currentPage);
 
 // // Pick a random page
 // const randomPage = otherPages[Math.floor(Math.random() * otherPages.length)];
 
 // // Assign random page to the button
-// document.getElementById("me_button").addEventListener("click", function () {
+// document.getElementById("enter_button").addEventListener("click", function () {
 //   window.location.href = randomPage;
 // });
 
-function visitGallery() {
-  window.location = "gallery.html";
-}
+// function visitGallery() {
+//   window.location = "gallery.html";
+// }
