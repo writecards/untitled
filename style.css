@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: freeSans;
+  src: url(sourcecodefont.ttf);
+  font-weight: 100;
+}
+html,
+body {
+  overscroll-behavior: none;
+  font-family: freeSans;
+  /* background-image: url("clubscene3.gif"); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;*/
+}
+
+/* .text{
+    background-color: orange;
+    position: fixed;
+    width: 40%;
+    top: 22%;
+    left: 32%;
+} */
+
+section {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 50%;
+  left: 100px;
+  margin-left: 25%;
+  margin-top: 5%;
+}
+
+.text {
+  position: relative;
+  cursor: default;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 2%;
+  /* color: rgb(255,255,255); */
+}
+
+.text span {
+  position: relative;
+  font-size: 1em;
+  font-weight: 900;
+  color: rgb(255, 255, 255, 0.15);
+  line-height: 0.8em;
+  transition: 3s;
+  user-select: none;
+}
+
+.text span:hover {
+  transition: 0s;
+  color: white;
+  text-shadow: 0 0 10px rgb(212, 255, 0), 0 0 20px #0f0,
+    0 0 40px rgb(89, 0, 255), 0 0 80px rgb(255, 0, 242),
+    0 0 160px rgb(0, 229, 255);
+  z-index: 1000;
+}
+
+#me_button {
+  position: relative;
+  left: 45%;
+
+  background-color: rgba(49, 49, 49, 0.15);
+  border-radius: 8px;
+  border-width: 0;
+  color: rgb(255, 255, 255, 0.5);
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 8px 10px;
+  text-align: center;
+  transition: all 200ms;
+  vertical-align: baseline;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+#me_button:hover {
+  background-color: rgba(213, 211, 211, 0.2);
+  color: rgba(253, 87, 245, 0.9);
+
+  text-shadow: 0 0 10px rgb(212, 255, 255), 0 0 20px #0f0,
+    0 0 40px rgb(89, 0, 255), 0 0 80px rgb(255, 0, 242),
+    0 0 160px rgb(0, 229, 255);
+}
+
+#home_button {
+  position: absolute;
+  left: 5%;
+  top: 5%;
+
+  background-color: rgba(49, 49, 49, 0.15);
+  border-radius: 8px;
+  border-width: 0;
+  color: rgb(255, 255, 255, 0.5);
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 8px 10px;
+  text-align: center;
+  transition: all 200ms;
+  vertical-align: baseline;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+#home_button:hover {
+  background-color: rgba(213, 211, 211, 0.15);
+  color: rgba(253, 87, 245, 0.9);
+
+  text-shadow: 0 0 10px rgb(212, 255, 255), 0 0 20px #0f0,
+    0 0 40px rgb(89, 0, 255), 0 0 80px rgb(255, 0, 242),
+    0 0 160px rgb(0, 229, 255);
+}
